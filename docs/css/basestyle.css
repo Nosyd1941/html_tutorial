@@ -1,0 +1,62 @@
+@charset "UTF-8";
+li*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+}
+h1,h2{
+    margin:0%;
+    font-size: size 60px;
+    padding: 0.5vw 0 0 1.5vw;
+}
+h2{
+    color: springgreen;
+}
+h3{
+    margin:0%;
+    font-size: size 3vw;
+    padding: 0.5vw 0 0 1.5vw;
+}
+header{
+    margin: 0;
+    width: 100%;
+    background-color: cyan;
+    height: 4vw;
+}
+#contents{
+    background-color: hotpink;
+}
+.profiel_list{
+    background-color: lightcoral;
+}
+#interest{
+    background-color:white;
+}
+footer{
+    background-color:black;
+    color:red;
+}
+.pic{
+    height:15vw;
+    margin:5vw;
+}
+.f-container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+@media screen and (max-width:780px){
+    .f-items{
+        display: block;
+        text-align: center;
+    }
+    head{
+        font-size: 30vw;
+        margin-top: 20vh;
+        margin-right: 0;
+        width: 100%;
+    }
+
+}
